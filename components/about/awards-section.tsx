@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 
+
 export default function AwardsSection() {
   const awards = [
     {
@@ -94,6 +95,7 @@ export default function AwardsSection() {
               </Card>
             </motion.div>
           ))}
+          
         </div>
 
         <motion.div
